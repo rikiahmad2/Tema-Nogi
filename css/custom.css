@@ -1,0 +1,19 @@
+
+.form-login{
+    margin-top: 60px;
+}
+
+@media (min-width:768px){
+    .bg-login{
+        background: url('bg.jpg');
+        height: 290px;
+        background-position: center;
+        background-size: cover;
+    }
+    .login-page{
+        margin-top: 120px;
+    }
+    .form-login{
+        margin-top: 0px;
+    }
+}

@@ -1,0 +1,285 @@
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.color-gold{
+    color: #AD974F;
+}
+
+.bg-gold{
+    background-color: #AD974F;
+    color: #ffffff;
+}
+.bg-darks{
+    background-color: #231F20;
+    color: #ffffff;
+}
+
+/* Button */
+.btn-gold{
+    background-color: #bea243;
+    color: #ffffff;
+}
+.btn-gold:hover{
+    background-color: #AD974F;
+    color: #ffffff;
+}
+.btn-darks{
+    background-color: #231F20;
+    color: #ffffff;
+}
+
+/* Navbar */
+.navbar-mende{
+    background-color: #000000;
+    padding: 10px;
+    border-bottom: 3px solid #bea243;
+}
+.navbar-mende .navbar-brand{
+    color: #ffff;
+    font-size: 26px;
+}
+.navbar-mende .navbar-toggler-icon{
+    color: #fff;
+}
+.navbar-mende .navbar-nav .nav-item{
+    color: #ffffff;
+    font-weight: 600;
+}
+.navbar-mende .navbar-nav .nav-item:hover{
+    color: #AD974F;
+    font-weight: 600;
+}
+
+
+/* Carousel */
+
+/* .carousel::after{
+    content: "";
+    position: absolute;
+    display: block;
+	width: 100%;
+	height: 100%;
+	bottom: 0;
+    background-color: #000000;
+    opacity: 0.6;
+    z-index: 111;
+} */
+.carousel-caption h5{
+    font-size: 40px;
+}
+.carousel-caption p{
+    font-size: 26px;
+}
+
+.invinitee .invinitee-text{
+    opacity: 0;
+}
+.invinitee .invinitee-text.tampil{
+    opacity: 1;
+}
+.invinitee .unggul{
+    opacity: 0;
+}
+.invinitee .unggul.tampil{
+    opacity: 1;
+}
+
+/* Why Invinitee */
+.invinitee .why-icon{
+    display: inline;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    line-height:90px;
+    font-size: 20px;
+    background-color: #231F20;
+    color: #AD974F;
+    border:3px solid #AD974F;
+    border-radius: 10px;
+}
+.invinitee .why-icon:hover{
+    width: 100px;
+    height: 100px;
+    line-height:90px;
+    font-size: 20px;
+    background-color: #AD974F;
+    color: #231F20;
+    border:3px solid #231F20;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.invinitee .why-title{
+    margin-top: 40px;
+}
+.invinitee h3{
+    font-size: 20px;
+}
+.invinitee h5{
+    font-size: 16px;
+}
+.invinitee p{
+    font-size: 13px;
+}
+@media (min-width:768px){
+    .invinitee h3{
+        font-size: 26px;
+    }
+    .invinitee h5{
+        font-size: 20px;
+    }
+    .invinitee p{
+        font-size: 16px;
+    }
+    .invinitee .why-icon{
+        font-size: 40px;
+    }
+    .invinitee .why-icon:hover{
+        font-size: 40px;
+    }
+}
+
+/* Call To Action */
+
+.call{
+    padding: 30px;
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.call .call-text-big{
+    opacity: 0;
+}
+.call .call-text-big.tampil{
+    opacity: 1;
+}
+.call .btn-gold{
+    opacity: 0;
+}
+.call .btn-gold.tampil{
+    opacity: 1;
+}
+
+
+/* Features */
+.feature .why-icon{
+    display: inline;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    line-height:90px;
+    font-size: 20px;
+    background: linear-gradient(#ddbe57, #AD974F);
+    color: #ffffff;
+    border-radius: 10px;
+}
+.feature .why-icon:hover{
+    display: inline;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    line-height:90px;
+    font-size: 20px;
+    background: linear-gradient(#cfb355, #968346);
+    color: #231F20;
+    border-radius: 10px;
+}
+
+.feature .why-title{
+    margin-top: 40px;
+}
+.feature .fitur-text{
+    opacity: 0;
+}
+.feature .fitur-text.tampil{
+    opacity: 1;
+}
+.feature .fitur{
+    opacity: 0;
+}
+.feature .fitur.tampil{
+    opacity: 1;
+}
+.feature h3{
+    font-size: 20px;
+}
+.feature h5{
+    font-size: 16px;
+}
+.feature p{
+    font-size: 13px;
+}
+@media (min-width:768px){
+    .feature h3{
+        font-size: 26px;
+    }
+    .feature h5{
+        font-size: 20px;
+    }
+    .feature p{
+        font-size: 16px;
+    }
+    .feature .why-icon{
+        font-size: 40px;
+    }
+    .feature .why-icon:hover{
+        font-size: 40px;
+    }
+}
+
+/* Call To Action */
+.call2 .call-text{
+    opacity: 0;
+}
+.call2 .call-text.tampil{
+    opacity: 1;
+}
+.call2 .btn{
+    opacity: 0;
+}
+.call2 .btn.tampil{
+    opacity: 1;
+}
+
+/* Tema */
+.tema .tema-text{
+    opacity: 0;
+}
+.tema .tema-text.tampil{
+    opacity: 1;
+}
+.tema .temau{
+    opacity: 0;
+}
+.tema .temau.tampil{
+    opacity: 1;
+}
+
+/* Pesan */
+.pesan{
+    padding: 30px;
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Footer */
+footer{
+    background-color: #231F20;
+    color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+footer i{
+    font-size: 25px;
+}
+footer a{
+    text-decoration: none;
+    color: #AD974F;
+}
+footer a:hover{
+    text-decoration: none;
+    color: #bea243;
+}

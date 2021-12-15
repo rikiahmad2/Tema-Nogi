@@ -1,0 +1,399 @@
+
+.btn-brown{
+    background-color: #9c875a;
+    color: #ffffff;
+}
+.btn-brown:hover{
+    background-color: #6d6043;
+    color: #ffffff;
+}
+
+
+/* Header */
+.jumbotron{
+	position: relative;
+    margin-bottom: 0px;
+}
+.jumbotron .display-4 h3{
+    font-family: 'Tangerine', cursive;  
+}
+.jumbotron .display-4 h5{
+    font-family: 'Bitter', serif;
+    margin-top: -10px;
+}
+.jumbotron .container{
+	z-index: 10;
+    position: absolute;
+    color: #ffffff;
+}
+.jumbotron .display-4{
+	color: white;
+	text-align: center;
+	margin-top: 100px;
+	font-weight: 90;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+	font-size: 30px;
+	margin-bottom: 40px;
+}
+.jumbotron::after{
+	content: '';
+	display: block;
+	width: 100%;
+	height: 90%;
+	position: absolute;
+	bottom: 0;
+    background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0));
+    z-index: 2;
+}
+@media (min-width:260px){
+    .jumbotron .display-4{
+        margin-top: 80px;
+    }
+    .display-4 h5{
+        font-size: 12px;
+    }
+    .display-4 h3{
+        font-size: 25px;
+    }
+}
+@media (min-width:320px){
+    .jumbotron .display-4{
+        margin-top: 100px;
+    }
+}
+@media (min-width:360px){
+    .jumbotron .display-4{
+        margin-top: 105px;
+    }
+    .display-4 h5{
+        font-size: 16px;
+    }
+    .display-4 h3{
+        font-size: 25px;
+    }
+}
+@media (min-width:400px){
+    .jumbotron .display-4{
+        margin-top: 230px;
+    }
+}
+@media (min-width:410px){
+    .jumbotron .display-4{
+        margin-top: 100px;
+    }
+}
+@media (min-width:540px){
+    .jumbotron .display-4{
+        margin-top: 175px;
+    }
+    .display-4 h5{
+        font-size: 18px;
+    }
+    .display-4 h3{
+        font-size: 35px;
+    }
+}
+@media (min-width:760px){
+    .jumbotron .display-4{
+        color: white;
+        text-align: center;
+        margin-top: 125px;
+        font-weight: 90;
+        text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+        margin-bottom: 30px;
+    }
+    .display-4 h3{
+        font-size: 50px;
+    }
+    .display-4 h5{
+        font-size: 20px;
+    }
+}
+@media (min-width:1020px){
+    .jumbotron .display-4{
+        margin-top: 200px;
+    }
+    .display-4 h5{
+        font-size: 35px;
+    }
+    .display-4 h3{
+        font-size: 85px;
+    }
+}
+@media (min-width:1360px){
+    .jumbotron .display-4{
+        color: white;
+        text-align: center;
+        margin-top: 200px;
+        margin-left: 170px;
+        font-weight: 90;
+        text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+        margin-bottom: 30px;
+    }
+    .display-4 h3{
+        font-size: 80px;
+    }
+    .display-4 h5{
+        font-size: 30px;
+    }
+}
+
+/* Mempelai */
+.mempelai{
+    position: relative;
+}
+.mempelai .bismillah{
+    font-size: 20px;
+}
+.mempelai .text-mempelai{
+    opacity: 0;
+}
+.mempelai .text-mempelai.tampil{
+    opacity: 1;
+}
+.mempelai .photo-mempelai{
+    opacity: 0;
+}
+.mempelai .photo-mempelai.tampil{
+    opacity: 1;
+}
+.mempelai .text-mempelai-2{
+    opacity: 0;
+}
+.mempelai .text-mempelai-2.tampil{
+    opacity: 1;
+}
+.mempelai .flower, .flower2{
+    opacity: 0;
+}
+.mempelai .flower.tampil, .flower2.tampil{
+    opacity: 1;
+}
+.mempelai .bismillah{
+    font-size: 27px;
+    margin-top: 40px;
+}
+.mempelai h3{
+    font-family: 'Italianno', cursive;
+    font-size: 35px;
+}
+.mempelai h4{
+    font-size: 18px;
+}
+.mempelai p{
+    font-size: 15px;
+}
+.mempelai .flower{
+    position: absolute;
+    width: 130px;
+    top: 0;
+    right: 0;
+}
+.mempelai .flower2{
+    position: absolute;
+    width: 130px;
+    bottom: 0;
+    left: 0;
+}
+.mempelai .flower3{
+    position: absolute;
+    width: 130px;
+    top: 0;
+    left: 0;
+    transform: rotateY(180deg);
+}
+.mempelai .flower4{
+    position: absolute;
+    width: 130px;
+    bottom: 0;
+    right: 0;
+    transform: rotateY(180deg);
+}
+
+@media (min-width:768px){
+    .mempelai .flower, .flower2, .flower3, .flower4{
+        width: 220px !important;
+    }
+    .mempelai .bismillah{
+        font-size: 20px;
+    }
+    .mempelai h4{
+        font-size: 22px;
+    }
+    .mempelai p{
+        font-size: 18px;
+    }
+}
+
+
+/* Jadwal */
+.jadwal{
+    background-color: #cab484;
+    color: #ffffff;
+    position: relative;
+}
+.jadwal h5{
+    font-family: 'Lato', sans-serif;
+}
+.jadwal .save-date{
+    font-family: 'Dancing Script', cursive;
+    opacity: 0;
+}
+.jadwal .save-date.tampil{
+    opacity: 1;
+}
+.jadwal .jadwal-undangan{
+    opacity: 0;
+}
+.jadwal .jadwal-undangan.tampil{
+    opacity: 1;
+}
+.jadwal .text-jadwal, .text-jadwal-2{
+    opacity: 0;
+}
+.jadwal .text-jadwal.tampil, .text-jadwal-2.tampil{
+    opacity: 1;
+}
+.jadwal .save-date h1{
+    font-size: 40px;
+}
+.jadwal .info-jadwal i{
+    font-size:30px;
+}
+.jadwal h5{
+    font-size: 18px;
+}
+.jadwal p{
+    font-size:14px;
+}
+.jadwal .bungajd1{
+    position: absolute;
+    width: 120px;
+    left: 10px;
+    bottom: 10px;
+
+}
+.jadwal .bungajd2{
+    position: absolute;
+    width: 120px;
+    bottom: 10px;
+    right: 10px;
+    transform: rotateY(180deg);
+}
+
+/* Gallery */
+.gallery img{
+    border-radius: 20px;
+}
+.gallery .gallery-text{
+    opacity: 0;
+}
+.gallery .gallery-text.tampil{
+    opacity: 1;
+}
+.gallery h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+}
+.gallery .gallery-photo{
+    opacity: 0;
+}
+.gallery .gallery-photo.tampil{
+    opacity: 1;
+}
+
+/* Qrcode */
+.qrcode{
+    background-color: #cab484;
+}
+.qrcode h3{
+    font-family: 'Dancing Script', cursive;
+    font-size: 24px;
+}
+.qrcode h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+}
+.qrcode h5{
+    font-size: 18px;
+}
+.qrcode .textqr, .qrcode-img{
+    opacity: 0;
+}
+.qrcode .textqr.tampil, .qrcode-img.tampil{
+    opacity: 1;
+}
+
+/* Peta Lokasi */
+.lokasi{
+    background-color: #ffffff;
+}
+.lokasi h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+}
+.maps{
+    padding: 10px;
+    background: #ffffff;
+    border-radius: 12px;
+}
+.lokasi iframe{
+    border-radius: 8px;
+}
+.lokasi .lokasi-text, .maps{
+    opacity: 0;
+}
+.lokasi .lokasi-text.tampil, .maps.tampil{
+    opacity: 1;
+}
+
+
+/* RSVP */
+.ucapan{
+    background-color: #ffffff;
+}
+.ucapan h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+}
+.ucapan .card{
+    background: #cab484;
+}
+
+
+
+/* Desktop */
+@media (min-width:768px){
+    .jadwal .info-jadwal i{
+        font-size:50px;
+    }
+    .jadwal .save-date h1{
+        font-size: 50px;
+    }
+    .jadwal .bungajd1, .bungajd2{
+        width: 320px !important;
+    }
+    .jadwal h5{
+        margin-top: 8px;
+        font-size: 24px;
+    }
+    .jadwal p{
+        font-size: 19px;
+    }
+    .gallery h1{
+        font-size: 50px;
+    }
+    .qrcode h1{
+        font-size: 40px;
+    }
+    .lokasi h1{
+        font-size: 50px;
+    }
+    .ucapan h1{
+        font-size: 50px;
+    }
+    .mempelai .bismillah{
+        font-size: 30px;
+        margin-top:10px;
+    }
+}
