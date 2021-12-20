@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Riki & Cindy</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="coverage" content="Worldwide">
+    <meta name="distribution" content="Global">
+    <meta name="rating" content="General">
+    <meta http-equiv="Expires" content="0">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Cache-Control" content="no-cache">
+    <meta name="webcrawlers" content="all">
+    <meta name="rating" content="general">
+    <meta name="spiders" content="all">
+    <meta name="author" content="Invinitee.com">
+    <meta property="og:title" content="nama panggilan wanita &amp; nama panggilan pria" />
+    <meta property="og:url" content="invinitee.com" />
+    <meta property="og:site_name" content="gold Invinitee.com" />
+    <meta property="og:description"
+        content="The Wedding Invitation Of nama panggilan wanita &amp; nama panggilan pria" />
+
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="css/gold/style-gold.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bitter&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
+
+    <link href="img/demo/logo.jpg" rel="shortcut icon">
+
+</head>
+
+<body>
+
+    <audio id="Audio" src=""></audio>
+
+    <style type="text/css">
+        @media only screen and (max-width: 600px) {
+            #riki {
+                height: 10%;
+            }
+        }
+    </style>
+
+    <!-- Header Carousel -->
+    <div class="jumbotron jumbotron-fluid p-0" id="header">
+        <div class="container">
+            <div class="display-4 text-center">
+                <h3 class="animate__animated animate__fadeInUp">Nama panggilan wanita & Nama panggilan pria</h3>
+                <h5 class="animate__animated animate__fadeInUp">Tanggal Resepsi</h5>
+                <a class="animate__animated animate__fadeInUp" id="riki" onClick="togglePlay()"><button
+                        class="btn btn-secondary" type="button" id="riki"><i class="fas fa-fw fa-music"></i> Play
+                        Music</button></a>
+            </div>
+        </div>
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/pengantin/slider1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/pengantin/slider2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/pengantin/slider3.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mempelai p-4" id="mempel">
+        <div class="flower"><img src="css/gold/flowright.png" class="img-fluid" alt=""></div>
+        <div class="flower3"><img src="css/gold/flowright.png" class="img-fluid" alt=""></div>
+        <div class="container">
+            <div class="row justify-content-center text-mempelai">
+                <div class="col-md-8 col-12 mb-2 mt-4">
+                    <!-- Condition Bismillah -->
+                    <div class="text-center mb-3 bismillah">
+                        <span style='font-family: Traditional Arabic;'>ب&#1616;س&#1618;م&#1616; الله&#1616;
+                            الر&#1617;&#1614;ح&#1618;من&#1616; الر&#1617;&#1614;ح&#1616;يم&#1616;</span></>
+                    </div>
+                    <p class="text-center">Assalamualaikum Warrahmatullahi Wabarakatuh</p>
+                    <!-- End Condition Bismillah -->
+
+                    <!-- Condition Kata Pengantar 1 -->
+                    <p class="text-center" style="font-size:18px;">
+                        Dengan memohon Rahmat dan Ridha Allah SWT,<br>bersama ini kami mengundang Bapak/Ibu/Saudara/i
+                        untuk dapat<br>
+                        menghadiri syukuran pernikahan putra dan putri kami
+                    </p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-3 col-10 text-center mb-4">
+                    <div class="photo-mempelai">
+                        <img src="img/pengantin/slider1.jpg" class="w-100 rounded-circle"
+                            alt="img/pengantin/slider2.jpg">
+                    </div>
+                    <h3 class="mt-3 text-mempelai-2 nama-pengantin">Nama Mempelai Wanita</h3>
+                    <p class="text-mempelai-2">
+                        Putri ke 2 dari bapak Sunarman & Ibu Kartiasih
+                    </p>
+                </div>
+                <div class="col-md-2 text-center">
+                    <div class="photo-mempelai dan">
+                        <h1 style="font-size:120px;" class="mt-5 d-none d-sm-block">&</h1>
+                    </div>
+                </div>
+                <div class="col-md-3 col-10 text-center mb-2">
+                    <div class="photo-mempelai">
+                        <img src="img/pengantin/slider1.jpg" class="w-100 rounded-circle"
+                            alt="<?= $invita['nama_mempelai_pria']; ?>">
+                    </div>
+                    <h3 class="mt-3 text-mempelai-2 nama-pengantin">
+                        Nama Mempelai Pria
+                    </h3>
+                    <p class="text-mempelai-2">
+                        Putri ke 2 dari bapak Sunarman & Ibu Kartiasih
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Jadwal -->
+    <div class="jadwal p-3" id="jadwal">
+        <div class="container">
+            <div class="row justify-content-center save-date mt-3">
+                <div class="col-md-8 text-center">
+                    <h1>Save The Date</h1>
+                </div>
+            </div>
+            <div class="row justify-content-center mt-3">
+                <div class="col-md-4 mb-3 col-6 text-center jadwal-undangan">
+                    <div class="info-jadwal text-center text-white">
+                        <i class="fas fa-fw fa-calendar-alt"></i>
+                    </div>
+                    <div class="text-jadwal text-white">
+                        <h5>
+                            09.00 WIB & 12.00 WIB
+                        </h5>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3 text-center jadwal-undangan">
+                    <div class="info-jadwal text-center text-white">
+                        <i class="far fa-fw fa-clock"></i>
+                    </div>
+                    <div class="text-jadwal text-white">
+                        <h5>
+                            Pukul 09.00 WIB - 12.00 WIB
+                        </h5>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3 text-center jadwal-undangan">
+                    <div class="info-jadwal text-center text-white">
+                        <i class="fas fa-fw fa-map-marked-alt"></i>
+                    </div>
+                    <div class="text-jadwal text-white text-center">
+                        <h5>
+                            Kartika Sari
+                        </h5>
+                        <p style="margin-top: -12px;">
+                            Jalan Selontongan Nomor 10 A Bandung
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center my-4">
+                <div class="col-md-6 text-center">
+                    <a href="google.com" target="_blank" class="btn-brown">
+                        <a href="#" target="_blank" class="btn btn-brown"><i class="fas fa-fw fa-map-marked-alt  "></i> View Maps</a>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-8  col-12 text-center mt-1">
+                    <p class="text-jadwal">
+                        Merupakan suatu kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i berkenan hadir dan memberikan
+                        do'a restu kepada putra-putri kami.
+                        Atas kehadiran dan do'a restu Bapak/Ibu/Saudara/i kami ucapkan terima kasih.
+                    </p>
+                    <p class="mt-3 text-jadwal-2">Kami Yang Berbahagia,<br>
+                        Keluarga :</p>
+                    <p class="text-jadwal-2">Bpk. Sumartono & Ibu Tri Ratmi Handayani
+                        <br>Bpk. Sumartono & Ibu Tri Ratmi Handayani<br> Kedua Mempelai
+                    </p>
+                    <br>
+                    <style type="text/css">
+                        .main {
+                            margin:auto 10%;
+                            padding-top: 8%;
+                            text-align: center;
+                            color: #222831;
+                        }
+                        h4 {
+                            margin-bottom: 40px;
+                            font-size: 30px;
+                            color: #fff;
+                        }
+                        #clock > div {
+                            border-radius: 5px;
+                            background: #9c875a;
+                            width:90px;
+                            height:90px;
+                            color: #fff;
+                            display: inline-block;
+                        }
+                        #clock > div > p {
+                            font-size: 16px;
+                        }
+                        #days, #hours, #minutes, #seconds {
+                           width:50px;
+                           height:50px;
+                           line-height:50px;
+                           border-bottom-left-radius:5px;
+                           border-bottom-right-radius:5px;
+                            font-size: 30px;
+                            background: #fb8e00;
+                            display: inline-block;
+                          
+                        }
+                        span.turn {
+                            animation: turn 0.7s ease;
+                        }
+                        @keyframes turn {
+                            0% {transform: rotateX(0deg)}
+                            100% {transform: rotateX(360deg)}
+                        }
+                   </style>
+                   
+                   
+                   <div class="main">
+                       <div id="clock">
+                           <div class="mb-2"><span id="days"></span><p>Hari</p></div>
+                           <div class="mb-2"><span id="hours"></span><p>Jam</p></div>
+                           <div class="mb-2"><span id="minutes"></span><p>Menit</p></div>
+                           <div class="mb-2"><span id="seconds"></span><p>Detik</p></div>
+                       </div>
+                   </div>
+                   
+                   <script src="js/jquery-3.5.1.min.js"></script>
+                   <script type="text/javascript">
+                        function animation(span) {
+                            span.className = "turn";
+                            setTimeout(function () {
+                                span.className = ""
+                            }, 700);
+                        }
+                    
+                        function Countdown() {
+                      
+                            setInterval(function () {
+                    
+                               var hari    = document.getElementById("days");
+                               var jam     = document.getElementById("hours");
+                               var menit   = document.getElementById("minutes");
+                               var detik   = document.getElementById("seconds");
+                                  
+                               var deadline    = new Date("2 November, 2022 23:59:59");
+                               var waktu       = new Date();
+                               var distance    = deadline - waktu;
+                                  
+                               var days    = Math.floor((distance / (1000*60*60*24)));
+                               var hours   = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                               var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                               var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                                  
+                               if (days < 10)
+                               {
+                                  days = '0' + days;
+                               }
+                               if (hours < 10)
+                               {
+                                  hours = '0' + hours;
+                               }
+                               if (minutes < 10)
+                               {
+                                  minutes = '0' + minutes;
+                               }
+                               if (seconds < 10)
+                               {
+                                  seconds = '0' + seconds;
+                               }
+                    
+                               hari.innerHTML    = days;
+                               jam.innerHTML     = hours;
+                               menit.innerHTML   = minutes;
+                               detik.innerHTML   = seconds;
+                               //animation
+                               animation(detik);
+                               if (seconds == 0) animation(menit);
+                               if (minutes == 0) animation(jam);
+                               if (hours == 0) animation(hari);
+                    
+                            }, 1000);
+                        }
+                    
+                        Countdown();
+                    
+                   </script>
+                </div>
+            </div>
+        </div>
+        <div class="bungajd1"><img src="css/gold/jadwal.png" class="img-fluid" alt=""></div>
+        <div class="bungajd2"><img src="css/gold/jadwal.png" class="img-fluid" alt=""></div>
+    </div>
+
+
+    <!-- Gallery -->
+    <div class="gallery p-5" id="gallery">
+        <div class="row justify-content-center">
+            <div class="col-md-8 text-center">
+                <h1 class="text-center gallery-text">Gallery</h1>
+            </div>
+        </div>
+        <div class="row justify-content-center mt-4 no-gutters">
+            <div class="col-md-4 col-6 p-2 gallery-photo">
+                <img src="img/pengantin/slider1.jpg" class="w-100" alt="nama depan pria & nama depan wanita">
+            </div>
+            <div class="col-md-4 col-6 p-2 gallery-photo">
+                <img src="img/pengantin/slider1.jpg" class="w-100" alt="nama depan pria & nama depan wanita">
+            </div>
+            <div class="col-md-4 col-6 p-2 gallery-photo">
+                <img src="img/pengantin/slider1.jpg" class="w-100" alt="nama depan pria & nama depan wanita">
+            </div>
+            <div class="col-md-4 col-6 p-2 gallery-photo">
+                <img src="img/pengantin/slider1.jpg" class="w-100" alt="nama depan pria & nama depan wanita">
+            </div>
+            <div class="col-md-4 col-6 p-2 gallery-photo">
+                <img src="img/pengantin/slider1.jpg" class="w-100" alt="nama depan pria & nama depan wanita">
+            </div>
+            <div class="col-md-4 col-6 p-2 gallery-photo">
+                <img src="img/pengantin/slider1.jpg" class="w-100" alt="nama depan pria & nama depan wanita">
+            </div>
+        </div>
+    </div>
+
+    <!-- Qrcode -->
+    <div class="qrcode p-5" id="qrcode">
+        <div class="container">
+            <div class="row justify-content-center mb-4">
+                <div class="col-md-10 text-center text-white textqr">
+                    <h3>QR Code</h3>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-4 col-12 text-center qrcode-img">
+                    <a href="#angpao" data-toggle="modal" class="btn btn-brown mb-3"><i class="fas fa-fw fa-qrcode"></i> GIFTS</a>
+                    <a href="#qrtamu" data-toggle="modal" class="btn btn-brown mb-3"><i class="fas fa-fw fa-qrcode"></i> QR Code Tamu</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Covid 19 -->
+    <div class="gallery p-5" id="gallery">
+        <div class="row justify-content-center mt-4 no-gutters">
+            <div class="col text-center col-md-8">
+                <h5 style="text-black">Tanpa mengurangi rasa hormat, kepada tamu undangan dimohon untuk mematuhi
+                    peraturan
+                    pemerintah dalam upaya pencegahan Covid-19 dengan menerapkan protokol kesehatan di acara ini</h5>
+            </div>
+        </div>
+        <div class="row justify-content-center mt-3 animate__animated animate__fadeInUp">
+            <div class="info-jadwal m-3 text-center ">
+                <img src="img/demo/gold/keep-distance.svg" width="100">
+                <h5>Menjaga Jarak</h5>
+            </div>
+            <div class="info-jadwal m-3 text-center ">
+                <img src="img/demo/gold/mask.svg" width="100">
+                <h5>Memakai masker</h5>
+            </div>
+            <div class="info-jadwal m-3 text-center ">
+                <img src="img/demo/gold/do-not-touch.svg" width="100">
+                <h5>Tidak Bersentuhan</h5>
+            </div>
+            <div class="info-jadwal m-3 text-center ">
+                <img src="img/demo/gold/washing-hands.svg" width="100">
+                <h5>Mencuci Tangan</h5>
+            </div>
+        </div>
+    </div>
+    <!-- Covid 19 -->
+
+    <!-- Wedding Live -->
+    <div class="qrcode p-5" id="qrcode">
+        <div class="container">
+            <div class="row justify-content-center mb-4">
+                <div class="col-md-10 text-center text-white textqr">
+                    <h4>Wedding Live</h4>
+                    <i class="fas fa-fw fa-video"></i><br><br>
+                    <h5>Prosesi akad bisa disaksikan secara virtual melalui link terlampir</h5>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-md-4 col-12 text-center qrcode-img">
+                    <a href="youtube.com" class="btn btn-primary mb-3" target="_blank"><i
+                            class="fas fa-fw fa-link"></i>Buka Link</i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Wedding Live-->
+
+
+    <!-- Ucapan & Do'a -->
+    <div class="ucapan p-4" id="ucapan">
+        <div class="container">
+            <div class="row justify-content-center mb-4 mt-4">
+                <div class="col-md-8 col-12 text-center ucapan-text text-white">
+                    <h1 class="text-green">Reservation</h1>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div class="card">
+                        <div class="card-body">
+                            <form method="post" action="action">
+                                <div class="form-group">
+                                    <input type="hidden" class="form-control mnd-form" name="undangan_id" value="<?= $invita['id_undangan'] ?>">
+                                    <input type="text" class="form-control mnd-form" name="guest_name"
+                                        placeholder="Nama Anda" autocomplete="off" value="nama tamu">
+                                </div>
+                                <div class="form-group">
+                                    <input type="number" class="form-control" name="jumlah_tamu"
+                                        placeholder="Jumlah Tamu Hadir" required>
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" name="jumlah_tamu"
+                                        placeholder="Jumlah Tamu Hadir" value="9 Orang" readonly>
+                                </div>
+                                <div class="form-group">
+                                    <select name="status_kehadiran" class="form-control custom-select" required>
+                                        <option value="">-- Pilih Status Kehadiran --</option>
+                                        <option value="1">Saya Akan Hadir</option>
+                                        <option value="2">Maaf Tidak Bisa Hadir</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <textarea name="guest_pray" class="form-control mnd-form" rows="5"
+                                        placeholder="Ucapan & Do'a Untuk Mempelai" required></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <button type="submit" name="submit" class="btn btn-block btn-brown"><i
+                                            class="far fa-fw fa-comment-dots"></i> Submit Reservasi & Ucapan</button>
+                                </div>
+                                <div class="form-group">
+                                    <p class="text-danger">
+                                        <span class="text-danger">*</span> <small><em>Ucapan akan melalui tahap
+                                                verifikasi terlebih dahulu, terima kasih</em></small>
+                                    </p>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center my-4">
+                <div class="col-md-4 mb-3">
+                    <div class="card ucapan-doa text-dark">
+                        <div class="card-body ">
+                            <h5><i class="far fa-fw fa-comment-dots"></i> <strong>
+                                    Nama Tamu Undangan
+                                </strong></h5>
+                            <p>
+                                Selamat Ya kakak atas pernikahan nya
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Ucapan & Do'a -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="angpao" tabindex="-1" data-backdrop="static">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">QR Code e-Wallet</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        <button class="btn btn-block btn-brown" type="button" data-toggle="collapse"
+                            data-target="#wallet1" aria-expanded="false" aria-controls="wallet1">
+                            Nama Wallet 1
+                        </button>
+                    </p>
+                    <div class="collapse" id="wallet1">
+                        <div class="card card-body">
+                            <img src="img/pengantin/slider1.jpg" class="w-100 img-fluid" alt="">
+                        </div>
+                    </div>
+
+                    <!-- Wallet 2 -->
+                    <p>
+                        <button class="btn btn-block btn-brown" type="button" data-toggle="collapse"
+                            data-target="#wallet2" aria-expanded="false" aria-controls="wallet2">
+                            Nama Wallet 2
+                        </button>
+                    </p>
+                    <div class="collapse" id="wallet2">
+                        <div class="card card-body">
+                            <img src="img/pengantin/slider1.jpg" class="w-100 img-fluid" alt="">
+                        </div>
+                    </div>
+                    <p>
+                        <button class="btn btn-block btn-brown" type="button" data-toggle="collapse"
+                            data-target="#wallet3" aria-expanded="false" aria-controls="wallet3">
+                            Nama Wallet 3
+                        </button>
+                    </p>
+                    <div class="collapse" id="wallet3">
+                        <div class="card card-body">
+                            <img src="img/pengantin/slider1.jpg"class="w-100 img-fluid" alt="">
+                        </div>
+                    </div>
+                    <!-- Confirmation-->
+                    <p class="text-center mt-4">Silahkan Melakukan Konfirmasi Setelah Memberikan Gifts Kepada Pengantin
+                        Dengan Cara Klik Form Dibawah</p>
+                    <p>
+                        <button class="badge badge-warning" type="button" data-toggle="collapse" data-target="#wallet4"
+                            aria-expanded="false" aria-controls="wallet3">
+                            Form Konfirmasi
+                        </button>
+                    </p>
+                    <div class="collapse" id="wallet4">
+                        <form method="POST" action="<?= site_url('public/ucapan/confirm_transfer') ?>"
+                            enctype="multipart/form-data">
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Nama Anda</label>
+                                <input type="hidden" name="id_tamu" class="form-control" id="exampleInputEmail1"
+                                    value="<?= $tamu['id_tamu'] ?>" readonly>
+                                <input type="text" class="form-control" id="exampleInputEmail1"
+                                    value="<?= $tamu['nama_tamu'] ?>" readonly>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">A/n Rekening</label>
+                                <input type="text" name="an_rekening" class="form-control" id="exampleInputPassword1"
+                                    placeholder="Atas Nama Rekening Anda" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Nominal</label>
+                                <input type="number" name="nominal" class="form-control" id="exampleInputPassword1"
+                                    placeholder="Nominal Yang Ditransfer" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Bukti Transfer</label>
+                                <input type="file" name="bukti_transfer" class="form-control" id="exampleInputPassword1"
+                                    placeholder="Maximal 1Mb" required>
+                            </div>
+                            <button type="submit" class="btn btn-info mt-4">Submit Konfirmasi Gifts</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal QR Code Buku Tamu -->
+    <div class="modal fade" id="qrtamu" tabindex="-1" data-backdrop="static">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">QR Code Buku Tamu</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body text-center">
+                    <img src="img/pengantin/slider1.jpg" class="w-100 img-fluid" alt="">
+                    <a href="img/pengantin/slider1.jpg" download class="btn btn-brown"><i class="fas fa-download"></i> Download QR Code</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <style>
+        .responsive {
+                width: 50%;
+                height: auto;
+            }
+    
+            body {
+                width: 100%;
+            }
+    
+            .data-tamu {
+                margin-top:-230px;
+            }
+    
+            .data-tamu2 {
+                margin-top:-220px;
+            }
+    
+            .data-tamu h3 {
+                font-size: 18px;
+            }
+    
+            .data-tamu h5 {
+                font-size: 15px;
+            }
+    
+            .data-tamu2 h3 {
+                font-size: 12px;
+            }
+    
+            .img-fluid {
+                max-width: 100%;
+                height: auto;
+            }
+    
+            .data-tamu2 h5 {
+                font-size: 10px;
+            }
+    
+            .tombol {
+                margin-top: 20px;
+            }
+    
+            .btn-theme {
+                background: #493323;
+                color: #fff;
+                z-index: 99;
+            }
+    
+            .data-tamu .mohon-maaf {
+                font-size: 12px;
+                margin-top: 100px;
+            }
+    
+            @media (max-width:420px) {
+                .modal img {
+                    width: 250px;
+                }
+                .data-tamu {
+                    margin-top:-220px;
+                }
+                .responsive {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+    
+            @media (max-width:360px) {
+                .modal img {
+                    width: 250px;
+                }
+    
+                .data-tamu .mohon-maaf {
+                    font-size: 10px;
+                    margin-top: 90px;
+                }
+    
+                .data-tamu {
+                    margin-top:-195px;
+                }
+    
+                .data-tamu2 {
+                    margin-top: -195px;
+                }
+    
+                .data-tamu h3 {
+                    font-size: 18px;
+                }
+    
+                .data-tamu h5 {
+                    font-size: 14px;
+                }
+    
+                .data-tamu2 h3 {
+                    font-size: 10px;
+                }
+    
+                .data-tamu2 h5 {
+                    font-size: 8px;
+                }
+    
+                .tombol {
+                    margin-top: 5px;
+                }
+    
+                .responsive {
+                    width: 100%;
+                    height: auto;
+                }
+    
+                #tamu h3,
+                h5 {
+                    font-family: 'Bitter', serif;
+                }
+            }
+    
+            @media (max-width:320px) {
+                .modal img {
+                    width: 250px;
+                }
+    
+                .data-tamu .mohon-maaf {
+                    font-size: 9px;
+                    margin-top: 50px;
+                }
+    
+                .data-tamu {
+                    margin-top:-165px;
+                }
+    
+                .data-tamu2 {
+                    margin-top: -195px;
+                }
+    
+                .data-tamu h3 {
+                    font-size: 12px;
+                }
+    
+                .data-tamu h5 {
+                    font-size: 10px;
+                }
+    
+                .data-tamu2 h3 {
+                    font-size: 8px;
+                }
+    
+                .data-tamu2 h5 {
+                    font-size: 6px;
+                }
+    
+                .tombol {
+                    margin-top: 30px;
+                }
+    
+                .responsive {
+                    width: 100%;
+                    height: auto;
+                }
+    
+                #tamu h3,
+                h5 {
+                    font-family: 'Bitter', serif;
+                }
+            }
+    </style>
+    
+        <div class="modal" id="tamu" tabindex="-1" style="width:100%;">
+            <div class="modal-dialog text-center modal-dialog-centere">
+                <img src="img/enred.png" class="w-75 img-fluid"  alt="">
+                    <div class="data-tamu">
+                        <h3>nama tamu</h3>
+                        <h5>Alamat tamu</h5>
+                        <h5 class="mohon-maaf">*mohon maaf apabila terdapat kesalahan <br> dalam penulisan nama ataupun gelar</h5>
+                    </div>
+                <div class="tombol text-center">
+                    <button data-dismiss="modal" class="btn btn-brown" >Buka Undangan</button>
+                </div>
+            </div>
+        </div>
+
+    <!-- Scripts -->
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/themes/gold.js"></script>
+    <script>
+        $('#tamu').modal('show');
+        //SLIDER
+        slider.init('test-slider1');
+        slider.init('test-slider2', {
+            'itemInFocus': 1,
+            'indicatorLinks': 'true'
+        });
+        //DETECT MOBILE Slider
+        $(document).ready(function () {
+            if (window.matchMedia("(max-width: 767px)").matches) {
+                // The viewport is less than 768 pixels wide
+                $("#test-slider2").hide();
+            } else {
+                // The viewport is at least 768 pixels wide
+                $("#test-slider1").hide();
+            }
+        });
+
+        function myFunc() {
+            var copyText = document.getElementById("myInput");
+            copyText.select();
+            copyText.setSelectionRange(0, 99999); /* For mobile devices */
+            document.execCommand("copy");
+            alert("Link Berhasil Di Salin : " + copyText.value);
+        }
+    </script>
+
+    <script type="text/javascript">
+        var myAudio = document.getElementById("Audio");
+        var isPlaying = false;
+
+        function togglePlay() {
+            myAudio.play();
+            terakhir = document.querySelector('#box');
+            terakhir.classList.add('hide');
+
+        };
+    </script>
+</body>
+
+</html>
